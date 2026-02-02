@@ -8,21 +8,24 @@ body {
     width: fit-content;
     gap: 10px;
 }
-.logo p span{
+
+.logo p span {
     font-weight: 700;
 
 }
-.logo p{
+
+.logo p {
     font-weight: 500;
     display: flex;
-    color:  #0B132A;
+    color: #0B132A;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 150px;
-    
+
 }
 
 .nav {
@@ -32,7 +35,8 @@ body {
     align-items: center;
 
 }
-.nav a{
+
+.nav a {
     color: #4F5665;
 
 }
@@ -40,53 +44,83 @@ body {
 .auth {
     display: flex;
     gap: 30px;
-    
+
 }
 
-.auth a{
-    color:  #0B132A;
+.auth a {
+    color: #0B132A;
 }
-.text-l{
+
+.text-l {
     padding: 120px 0px 20px 150px;
     width: fit-content;
 }
-.text-l p{
+
+.text-l  {
     font-weight: 500;
     font-size: 50px;
 }
-.text-l p span {
+
+.text-l  span {
     font-size: 50px;
-    font-weight:700 ;
+    font-weight: 700;
 }
-.under_text-l{
+
+.under_text-l {
     font-weight: 400;
     font-size: 16px;
-    padding: 20px 0px 50px 150px;
-    color:  #4F5665;
+    /* padding: 20px 0px 50px 150px; */
+    color: #4F5665;
     width: fit-content;
-;
+    ;
 
 }
-.under_text-l span{
+
+.under_text-l span {
     font-size: 16px;
     font-weight: 500;
 }
-.button-get_started{
-      border:  #F53838 solid;
-    margin: 0px 0px 0px 150px ;
+
+.button-get_started {
+    border: #F53838 solid;
     width: fit-content;
     padding: 17.5px 77.5px;
     border-radius: 10px;
-   background-color: #F53838;
-   color: #ffff;
-   font-weight: 700;
-   font-size: 16px;
-   box-shadow: 25px 19px 54px #F5383859;
+    background-color: #F53838;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 25px 19px 54px #F5383859;
+    margin-top: 30px;
 
 }
-.under_auth{
+
+
+
+.container {
     display: flex;
-    align-items: end;
     justify-content: center;
+    gap: 40px;
+    align-items: center;
+    padding-top: 85px;
 }
-  
+.under_article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
+.h1 span{
+    font-weight: 700;
+    
+}
+
+.main {
+    padding: 0 150px;
+}
