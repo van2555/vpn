@@ -46,3 +46,47 @@ body {
 .auth a{
     color:  #0B132A;
 }
+.text-l{
+    padding: 120px 0px 20px 150px;
+    width: fit-content;
+}
+.text-l p{
+    font-weight: 500;
+    font-size: 50px;
+}
+.text-l p span {
+    font-size: 50px;
+    font-weight:700 ;
+}
+.under_text-l{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0px 50px 150px;
+    color:  #4F5665;
+    width: fit-content;
+;
+
+}
+.under_text-l span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.button-get_started{
+      border:  #F53838 solid;
+    margin: 0px 0px 0px 150px ;
+    width: fit-content;
+    padding: 17.5px 77.5px;
+    border-radius: 10px;
+   background-color: #F53838;
+   color: #ffff;
+   font-weight: 700;
+   font-size: 16px;
+   box-shadow: 25px 19px 54px #F5383859;
+
+}
+.under_auth{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+  
