@@ -1,5 +1,6 @@
 body {
     font-family: "Rubik", sans-serif;
+   color:  #0B132A;
 }
 
 .logo {
@@ -44,12 +45,20 @@ body {
 .auth {
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 
 }
-
+.sing_up{
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 63px;
+    color: #F53838;
+}
 .auth a {
     color: #0B132A;
 }
+
 
 .text-l {
     padding: 120px 0px 20px 150px;
@@ -123,4 +132,173 @@ body {
 
 .main {
     padding: 0 150px;
+}
+.users div{
+    display: flex;
+    flex-direction: column;
+}
+.users{
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+.user-svg {
+    background-color: #FFECEC;
+    padding: 15px;
+    border-radius: 999px;
+}
+.ninety{
+    font-weight: 700;
+    font-size: 25px;
+    color: #0B132A;
+;
+}
+.users-ninety{
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F5665;
+}
+
+.vertical {
+    height: 125px;
+    width: 2px;
+    background-color: #EEEFF2;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 91px;
+    margin: 100px 150px;
+    box-shadow: 0px 35px 114px -75px #0D1025;
+    border-radius: 10px;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+}
+
+.features div div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.h2h2{
+    font-weight: 500;
+    font-size: 35px;
+}
+.content p{
+    font-weight: 400;
+    font-size: 14px;
+    color:  #4F5665;
+
+}
+.h{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.h h2{
+    padding: 80px 0 0 0;
+    font-weight: 500;
+    font-size: 35px;
+}
+.h p{
+    padding-bottom: 60px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ddd;
+   padding: 79px 69px 50px 69px;
+   border-radius: 10px;
+   align-items: space-between;
+   justify-content: space-between;
+   height: 760px;
+}
+.plan:hover{
+    border: 2px solid #F53838;
+    transition: all 0.3s ease-in-out;
+}
+
+.svg_galochka{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.plan-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.plan-content h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+.plan-galochka {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:#4F5665;
+}
+
+.plan-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.plan_button{
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 63px;
+    color:#F53838;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+
+}
+.plan_button:hover{
+    background-color: #F53838;
+    box-shadow: 0px 9px 54px -12px #F53838;
+    color: #fff;
+}
+.plan-footer span{
+    font-weight: 500;
+    font-size: 25px;
+}
+.network{
+    text-align: center;
+}
+.h3h3{
+    padding: 150px 0 0 0;
+    font-weight: 500;
+    font-size: 35px;
+}
+.under_h3h3{
+    color: #4F5665;
+    font-weight: 400;
+    font-size: 16px;
+}
+.under_h3h3_span{
+    font-weight: 500;
+}
+.global{
+    padding: 156px 190px 36px 190px;
 }
