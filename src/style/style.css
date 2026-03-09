@@ -1,27 +1,12 @@
 @import url("reset.css");
-
+@import url("logo.css");
+@import url("info.css");
 body {
     font-family: "Rubik", sans-serif;
     color: #0B132A;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    gap: 10px;
-}
 
-.logo p span {
-    font-weight: 700;
-
-}
-
-.logo p {
-    font-weight: 500;
-    display: flex;
-    color: #0B132A;
-}
 
 .header {
     display: flex;
@@ -97,7 +82,7 @@ body {
     font-weight: 500;
 }
 
-.button-get_started {
+.button {
     border: #F53838 solid;
     width: fit-content;
     padding: 17.5px 77.5px;
@@ -107,9 +92,15 @@ body {
     font-weight: 700;
     font-size: 16px;
     box-shadow: 25px 19px 54px #F5383859;
-    margin-top: 30px;
-
 }
+
+ .btn_hero {
+    margin-top: 30px;
+ }
+.button:hover {
+    box-shadow: 0px 9px 54px -12px #F53838;
+}
+
 
 
 
@@ -144,50 +135,6 @@ body {
     padding: 0 150px;
 }
 
-.users div {
-    display: flex;
-    flex-direction: column;
-}
-
-.users {
-    display: flex;
-    gap: 37px;
-    align-items: center;
-}
-
-.user-svg {
-    background-color: #FFECEC;
-    padding: 15px;
-    border-radius: 999px;
-}
-
-.ninety {
-    font-weight: 700;
-    font-size: 25px;
-    color: #0B132A;
-    ;
-}
-
-.users-ninety {
-    font-weight: 400;
-    font-size: 20px;
-    color: #4F5665;
-}
-
-.vertical {
-    height: 125px;
-    width: 2px;
-    background-color: #EEEFF2;
-}
-
-.info {
-    display: flex;
-    justify-content: space-between;
-    padding: 37px 91px;
-    margin: 100px 150px;
-    box-shadow: 0px 35px 114px -75px #0D1025;
-    border-radius: 10px;
-}
 
 .features {
     display: flex;
@@ -456,21 +403,7 @@ body {
     color: #4F5665;
 }
 
-.button_subscribe {
-    padding: 17.5px 65px;
-    border-radius: 10px;
-    background-color: #F53838;
-    border: 2px solid #F53838;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
-    transition: all 0.3s ease-in-out;
 
-}
-
-.button_subscribe:hover {
-    box-shadow: 0px 9px 54px -12px #F53838;
-}
 
 .footer {
     background-color: #F8F8F8;
@@ -560,16 +493,4 @@ body {
 }
 .downloads a{
     color: #4F5665;
-}
-
-.colomn_3 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.colomn_4 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }

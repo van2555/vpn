@@ -1,0 +1,22 @@
+<div class="info_item">
+        <div class="user-svg">
+            @@if(icon === "user"){
+                @@include("ui/components/assets/user.html")
+            }
+            @@if(icon === "local"){
+                @@include("ui/components/assets/local.html")
+            }
+            @@if(icon === "server"){
+                @@include("ui/components/assets/server.html")
+            }
+        </div>
+        <div>
+            <span class="ninety">
+                @@num
+            </span>
+            <span class="info_item-ninety">
+                @@title
+            </span>
+        </div>
+
+    </div>

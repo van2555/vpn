@@ -1,0 +1,18 @@
+{
+  "name": "vpn",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx gulp"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-file-include": "^2.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

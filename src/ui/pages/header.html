@@ -1,0 +1,32 @@
+<header class="header">
+    @@include("ui/components/logo.html", {
+        "logo": true
+    })
+    <nav class="nav">
+        @@include("ui/components/link.html", {
+            "title": "About",
+        })
+        @@include("ui/components/link.html", {
+            "title": "Features",
+        })
+        @@include("ui/components/link.html", {
+            "title": "Pricing",
+        })
+        @@include("ui/components/link.html", {
+            "title": "Testimonials",
+        })
+        @@include("ui/components/link.html", {
+            "title": "Help",
+        })
+      
+    </nav>
+    <div class="auth">
+         @@include("ui/components/link.html", {
+            "title": "Sing in",
+        })
+         @@include("ui/components/link.html", {
+            "title": "Sing up",
+            "class": "sing_up"
+        })
+    </div>
+</header>

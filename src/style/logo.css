@@ -1,0 +1,22 @@
+.logo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #0B132A;
+    gap: 10px;
+}
+
+.logo_title {
+    display: inline-flex;
+    gap: 0px;
+}
+
+.logo_text {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.logo_text span {
+    font-weight: 700;
+}

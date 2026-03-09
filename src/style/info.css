@@ -1,0 +1,44 @@
+.info_item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_item {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+.user-svg {
+    background-color: #FFECEC;
+    padding: 15px;
+    border-radius: 999px;
+}
+
+.ninety {
+    font-weight: 700;
+    font-size: 25px;
+    color: #0B132A;
+    ;
+}
+
+.info_item-ninety {
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F5665;
+}
+
+.vertical {
+    height: 125px;
+    width: 2px;
+    background-color: #EEEFF2;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 91px;
+    margin: 100px 150px;
+    box-shadow: 0px 35px 114px -75px #0D1025;
+    border-radius: 10px;
+}

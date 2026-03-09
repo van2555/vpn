@@ -1,0 +1,14 @@
+@@if(logo){
+<a class="logo" href="/">
+    <img src="img/logo.png" />
+    @@include("ui/components/logo-text.html", {
+        "class": "logo_text logo_title"
+    })
+</a>
+}
+@@if(!logo){
+@@include("ui/components/logo-text.html", {
+    "class":"logo_title"
+})
+}
+
