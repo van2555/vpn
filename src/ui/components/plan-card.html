@@ -1,0 +1,18 @@
+<div class="plan">
+    <img src="img/Free.png">
+    <div class="plan-content">
+        <h4>
+            @@title
+        </h4>
+        <div class="plan-galochka">
+            @@for(let i = 0; i < titles.length; i++){
+                @@include("ui/components/icon-title.html", 
+                {"title": "`+titles[i].title+`", "bool": ""})
+            }
+        </div>
+    </div>
+    <div class="plan-footer">
+        <span>@@price</span>
+        <button class="plan_button">Select</button>
+    </div>
+</div>
