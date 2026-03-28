@@ -1,6 +1,8 @@
-import {src, dest, watch, series } from "gulp"
+import { src, dest, watch, series } from "gulp"
 import fileInclude from "gulp-file-include"
 import browser from "browser-sync"
+import htmlmin from "gulp-htmlmin"
+
 const bs = browser.create()
 function html() {
     return src(["src/**/*.html", "src/**/*.css", "!src/ui/**/*.html"]).pipe(
@@ -8,10 +10,15 @@ function html() {
             prefix: "@@",
             basepath: "src",
         }),
+    ).pipe(
+        htmlmin({
+            collapseWhitespace: true,
+            removeComments: true,
+        }),
     ).pipe(dest("dist"))
 }
 function imgs() {
-    return src(["src/**/*.{png,jpg,webp}"], {encoding: false}).pipe(dest("dist"))
+    return src(["src/**/*.{png,jpg,webp}"], { encoding: false }).pipe(dest("dist"))
 }
 function server(done) {
     bs.init({

@@ -1,0 +1,19 @@
+.icon svg {
+    fill: #F53838;
+    stroke: #F53838;
+    width: 20px;
+    height: 20px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 999px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
